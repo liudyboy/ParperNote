@@ -9,4 +9,4 @@ int main(){
  
  #+END_SRC
 
- [[~/Pictures/Wallpapers/132327.jpg]]
+[[download.png]]
