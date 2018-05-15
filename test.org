@@ -1,2 +1,12 @@
 * title 
 ** seonde
+ #+BEGIN_SRC c++
+ #include<iostream>
+using namespace std;
+int main(){
+    cout << "hello" << endl;
+}
+ 
+ #+END_SRC
+
+ [[~/Pictures/Wallpapers/132327.jpg]]
