@@ -39,4 +39,4 @@
 
    + Agent = world-model + self-model
 
-     [[images/F1.png]]
+     [[./images/F1.jpg]]
