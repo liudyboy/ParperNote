@@ -1,0 +1,42 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+
+* Learning to Play with Intrinsically-Motivated Self-Aware Agents
+** Abstract   
+
+    + Using a neural network that implement curiosity-driven intrinsic motivation
+       /get the idea from infants/
+       
+    + “world-model” network that learns to predict the dynamic consequences of the agent’s actions.
+
+    + “self-model” that allows the agent to track the error map of its own world-model, and then uses the
+       self-model to adversarially challenge the develop-ing world-model.
+
+    + results are initial steps toward creating flexible autonomous agents that self-supervise in complex
+      novel physical environments.
+
+** Introduction
+
+   + Truly autonomous artificial agents must be able to discover useful behaviors in complex environments without having
+     humans present to constantly pre-specify tasks and rewards.
+     /for example robot explore the Mars/
+   
+   + absence of rewards, via loss fnctions encoding intrinsic reward signals, an agent chooses actions that result
+     in novel but predictable states that maximize its learning
+
+   + use tools of modern deep reinforcement learning to create an artificial agent that learns to play.
+
+   + A neural network architecture through which agent learns a world-model, either through forward or inverse dynamics prediction
+
+   + As the agent optimizes the accuracy of its world-model, a separate explicit “self- model” neural network simultaneously learns to predict the errors of the agent’s own world-model.
+
+   + Base on self-model, agent use an action policy that seeks take actions that adversarially challenge the current state of its world-model
+
+
+** Interactive Physical Environment
+   
+   + Action space of the agent is a subset of $$R^{2+6N}$$ 
+
+   + Agent = world-model + self-model
+
+     [[images/F1.png]]

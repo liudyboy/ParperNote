@@ -1,0 +1,4 @@
+* Chapter 2
++  Abstract
+   1. Two distribution models: client/server and peer-to-peer
+   2. 
