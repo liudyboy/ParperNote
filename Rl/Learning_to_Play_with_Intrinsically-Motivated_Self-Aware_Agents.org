@@ -41,6 +41,3 @@
 
      [[./images/F1.jpg]]
 
-     \sin(x) \lim_{x \to \infty} \exp(-x) = 0
-     
-     $$\iff \top   \forall$$
