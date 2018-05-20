@@ -35,11 +35,11 @@
 
 ** Interactive Physical Environment
    
-   + Action space of the agent is a subset of $$R^{2+6N}$$ 
+   + Action space of the agent is a subset of R^{2+6N} 
 
    + Agent = world-model + self-model
 
      [[./images/F1.jpg]]
 
-     $$\sin{x} \lim_{x \to \infty} \exp(-x) = 0$$
+     \sin{x} \lim_{x \to \infty} \exp(-x) = 0
      
